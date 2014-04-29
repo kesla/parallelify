@@ -1,0 +1,25 @@
+{
+  "name": "parallelify",
+  "version": "1.0.0",
+  "description": "An alternative api to run-parallel",
+  "main": "parallelify.js",
+  "dependencies": {
+    "run-parallel": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^2.12.3"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kesla/parallelify.git"
+  },
+  "author": "David Björklund <david.bjorklund@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kesla/parallelify/issues"
+  },
+  "homepage": "https://github.com/kesla/parallelify"
+}
