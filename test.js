@@ -49,3 +49,24 @@ test('functions that return results', function (t) {
     t.deepEqual(results, [1, 2])
   })
 })
+
+test('named functions that return results', function (t) {
+  t.plan(4)
+
+  var p = parallelify.named()
+
+  p.add(function (cb) {
+    t.pass('cb 1')
+    cb(null, 1)
+  })
+
+  p.add('two', function (cb) {
+    t.pass('cb 2')
+    cb(null, 2)
+  })
+
+  p.exec(function (err, results) {
+    t.error(err)
+    t.deepEqual(results, { two: 2 })
+  })
+})
