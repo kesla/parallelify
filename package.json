@@ -4,7 +4,8 @@
   "description": "An alternative api to run-parallel",
   "main": "parallelify.js",
   "dependencies": {
-    "run-parallel": "^1.0.0"
+    "run-parallel": "^1.0.0",
+    "run-alternative": "^1.0.1"
   },
   "devDependencies": {
     "tape": "^2.12.3"
