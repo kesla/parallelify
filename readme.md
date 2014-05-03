@@ -2,6 +2,10 @@
 
 An alternative api to run-parallel
 
+[![NPM](https://nodei.co/npm/parallelify.png?downloads&stars)](https://nodei.co/npm/parallelify/)
+
+[![NPM](https://nodei.co/npm-dl/parallelify.png)](https://nodei.co/npm/parallelify/)
+
 ## Installation
 
 ```
